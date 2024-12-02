@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af3eeb59bf110c4da4ba65dd67f5f07, type: 3}
+  m_Name: LevelData 10
+  m_EditorClassIdentifier: 
+  time: 100
+  taskObjects:
+  - prefabObject: {fileID: 5305653360499854613, guid: 4bfc1cc8258878144b6471bc25a685fd, type: 3}
+    countSpawn: 9
+    count: 0
+  - prefabObject: {fileID: 6806413415399527999, guid: 3a82d8e498272ef43871e772e42cac39, type: 3}
+    countSpawn: 9
+    count: 0
+  - prefabObject: {fileID: 5447025342664865693, guid: 5594e137a66a4ff47bcc3e90fb8926ea, type: 3}
+    countSpawn: 9
+    count: 0
+  nomalObjects:
+  - prefabObject: {fileID: 8908002379116005531, guid: 75d1bd7aca7de8046b5b4107157e8d8f, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 1518772945727240250, guid: 30e28261ba19fb641a05a7159e038754, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 6577278765887929044, guid: 987eb3c06a2009c4b9bc0eff9ea2ae8b, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 3272008611986738384, guid: e0a191dad542e2d49aca2cfdf5a41919, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 5044902936408861949, guid: d11b064cbf16a084ebdcb85cfae5d97f, type: 3}
+    countSpawn: 9
+  specialObjects:
+  - prefabObject: {fileID: 2110566461553382524, guid: 3dd5eacc9c2150540a3009dee7e35021, type: 3}
+    minCountSpawn: 1
+    maxCountSpawn: 2
+    rateSpawn: 0.15
+  - prefabObject: {fileID: 6548932921077168319, guid: dfdcebbc02bf3c147a46754c188fd1cb, type: 3}
+    minCountSpawn: 2
+    maxCountSpawn: 5
+    rateSpawn: 0.8
+  - prefabObject: {fileID: 1439612406848632651, guid: fc8f10e7685b60c409381a129790be51, type: 3}
+    minCountSpawn: 1
+    maxCountSpawn: 3
+    rateSpawn: 0.15
+  twinObjects:
+  - prefabObject: {fileID: 7321148797913937231, guid: 4c7b86c24f7f119478eacceeba8e67d7, type: 3}
+    obj1: {fileID: 6577278765887929044, guid: 987eb3c06a2009c4b9bc0eff9ea2ae8b, type: 3}
+    obj2: {fileID: 3272008611986738384, guid: e0a191dad542e2d49aca2cfdf5a41919, type: 3}
+  - prefabObject: {fileID: 1945926970162355579, guid: b7ec32947f48a7d41a9915d87a25367c, type: 3}
+    obj1: {fileID: 6577278765887929044, guid: 987eb3c06a2009c4b9bc0eff9ea2ae8b, type: 3}
+    obj2: {fileID: 6648176313184013029, guid: 5ffc512d54d29da4d84b57189907f843, type: 3}

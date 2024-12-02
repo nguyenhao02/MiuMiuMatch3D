@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af3eeb59bf110c4da4ba65dd67f5f07, type: 3}
+  m_Name: LevelData 1
+  m_EditorClassIdentifier: 
+  time: 200
+  taskObjects:
+  - prefabObject: {fileID: 1886697152771142348, guid: b78abc118cca36c428a5f54a44cc515f, type: 3}
+    countSpawn: 6
+    count: 0
+  nomalObjects:
+  - prefabObject: {fileID: 6673122335506908713, guid: 63b5778a2ffeb9849a8706f3837bcd48, type: 3}
+    countSpawn: 6
+  - prefabObject: {fileID: 3679590764183560319, guid: 75005c8ff4dd1c84ba94d3191ef2ba52, type: 3}
+    countSpawn: 6
+  - prefabObject: {fileID: 7788440808922419990, guid: e4128f71649fb9e4d974db9c3099ffc5, type: 3}
+    countSpawn: 6
+  specialObjects:
+  - prefabObject: {fileID: 2110566461553382524, guid: 3dd5eacc9c2150540a3009dee7e35021, type: 3}
+    minCountSpawn: 0
+    maxCountSpawn: 0
+    rateSpawn: 0
+  - prefabObject: {fileID: 6548932921077168319, guid: dfdcebbc02bf3c147a46754c188fd1cb, type: 3}
+    minCountSpawn: 0
+    maxCountSpawn: 0
+    rateSpawn: 0
+  - prefabObject: {fileID: 1439612406848632651, guid: fc8f10e7685b60c409381a129790be51, type: 3}
+    minCountSpawn: 0
+    maxCountSpawn: 0
+    rateSpawn: 0
+  twinObjects:
+  - prefabObject: {fileID: 6452662697864869365, guid: 880746a114a882043b299f3e019770fe, type: 3}
+    obj1: {fileID: 1886697152771142348, guid: b78abc118cca36c428a5f54a44cc515f, type: 3}
+    obj2: {fileID: 7788440808922419990, guid: e4128f71649fb9e4d974db9c3099ffc5, type: 3}
+  - prefabObject: {fileID: 335873341200480643, guid: 4b304ae970a20d04db6872941d9a7d06, type: 3}
+    obj1: {fileID: 1886697152771142348, guid: b78abc118cca36c428a5f54a44cc515f, type: 3}
+    obj2: {fileID: 6673122335506908713, guid: 63b5778a2ffeb9849a8706f3837bcd48, type: 3}

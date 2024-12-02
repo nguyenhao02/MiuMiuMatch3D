@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af3eeb59bf110c4da4ba65dd67f5f07, type: 3}
+  m_Name: LevelData 39
+  m_EditorClassIdentifier: 
+  time: 90
+  taskObjects:
+  - prefabObject: {fileID: 2012601537849124070, guid: 297ae6cc9fe53f447bd8a977d6c0a73c, type: 3}
+    countSpawn: 9
+    count: 6
+  - prefabObject: {fileID: 3114202494654503074, guid: 88a1e206eba49aa4991ffd9c824eacdd, type: 3}
+    countSpawn: 9
+    count: 9
+  nomalObjects:
+  - prefabObject: {fileID: 2289155261856191345, guid: 76aa75e5bc2afb5478744bf4a5eaadb6, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 6106306373915381103, guid: 631f2d799ceccd348b3de258837ad6b7, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 8254338808754365117, guid: 8238faed67ef4194d981b7279a79c90c, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 5568318373727303420, guid: 1a2ae36323fb9fd4da03f29d289e72c8, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 5106727591639766814, guid: 67683363489135b4aa5fb0e21e66ced0, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 834277462582175054, guid: 2d191b5749fdccc4bbc119e7779d9553, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 9157593140552709875, guid: 4b6002158ec760441af9522ccf43ef6b, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 4905514390877478109, guid: 718570e4c1072bb469bf0c2d9ee42028, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 5902249553343752811, guid: e6ec6b74f02e1df41bede00f070b3b62, type: 3}
+    countSpawn: 9
+  specialObjects:
+  - prefabObject: {fileID: 2110566461553382524, guid: 3dd5eacc9c2150540a3009dee7e35021, type: 3}
+    minCountSpawn: 1
+    maxCountSpawn: 2
+    rateSpawn: 0.15
+  - prefabObject: {fileID: 6548932921077168319, guid: dfdcebbc02bf3c147a46754c188fd1cb, type: 3}
+    minCountSpawn: 1
+    maxCountSpawn: 5
+    rateSpawn: 0.7
+  - prefabObject: {fileID: 1439612406848632651, guid: fc8f10e7685b60c409381a129790be51, type: 3}
+    minCountSpawn: 1
+    maxCountSpawn: 3
+    rateSpawn: 0.15
+  twinObjects: []

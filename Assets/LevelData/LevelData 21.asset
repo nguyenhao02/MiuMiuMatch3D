@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af3eeb59bf110c4da4ba65dd67f5f07, type: 3}
+  m_Name: LevelData 21
+  m_EditorClassIdentifier: 
+  time: 90
+  taskObjects:
+  - prefabObject: {fileID: 2712978611903723170, guid: 6c7561d1dc9fcb345954b4c599ea4d22, type: 3}
+    countSpawn: 6
+    count: 5
+  - prefabObject: {fileID: 7827006574289180333, guid: 3212359c90a32b6439c9b745e9ad3359, type: 3}
+    countSpawn: 6
+    count: 6
+  - prefabObject: {fileID: 5629227549015998314, guid: b28ad1f1f6a728b42b8e6f21ebd383e9, type: 3}
+    countSpawn: 6
+    count: 2
+  - prefabObject: {fileID: 7476118718506044982, guid: a9e928e60a441f64ea64c7b7e2536a12, type: 3}
+    countSpawn: 6
+    count: 2
+  nomalObjects:
+  - prefabObject: {fileID: 8456076509250842959, guid: 4d7c3ba9e5879944a84f3d08ef0c88be, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 5570317874265140189, guid: dd4ef467832cd434e9ccfd7617cb4f71, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 429435891888596964, guid: 31ee56e9ae964ce45b28bf39e11f7181, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 8578259547229358242, guid: e1e81fdf65ec8de42bfb075acbf651c8, type: 3}
+    countSpawn: 9
+  - prefabObject: {fileID: 3169635597574728547, guid: c8ee4760f08b8e6419bd99f6ce4e387c, type: 3}
+    countSpawn: 9
+  specialObjects:
+  - prefabObject: {fileID: 2110566461553382524, guid: 3dd5eacc9c2150540a3009dee7e35021, type: 3}
+    minCountSpawn: 1
+    maxCountSpawn: 2
+    rateSpawn: 0.15
+  - prefabObject: {fileID: 6548932921077168319, guid: dfdcebbc02bf3c147a46754c188fd1cb, type: 3}
+    minCountSpawn: 1
+    maxCountSpawn: 5
+    rateSpawn: 0.4
+  - prefabObject: {fileID: 1439612406848632651, guid: fc8f10e7685b60c409381a129790be51, type: 3}
+    minCountSpawn: 1
+    maxCountSpawn: 3
+    rateSpawn: 0.15
+  twinObjects: []
